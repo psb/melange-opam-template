@@ -16,5 +16,6 @@ depends: [
   "ocaml-lsp-server" {dev}
   "dot-merlin-reader" {dev}
   "odoc" {with-doc}
+  "ocamlformat" {>= "0.25.0"}
 ]
 dev-repo: "git+https://github.com/your/project.git"
