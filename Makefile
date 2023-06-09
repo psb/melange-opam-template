@@ -27,19 +27,25 @@ install: ## Install development dependencies
 
 .PHONY: build
 build: ## Build the project
-	$(DUNE) build @react @node
+	$(DUNE) build @react
+	npm run build
 
 .PHONY: build_verbose
 build_verbose: ## Build the project
-	$(DUNE) build --verbose @react @node
+	$(DUNE) build --verbose @react
+	npm run build
 
-.PHONY: serve
-serve: ## Serve the application with a local HTTP server
-	npm run serve
+.PHONY: dev
+dev: ## Serve the application with a local HTTP server
+	npm run dev
+
+.PHONY: preview
+preview: ## Preview the built JS
+	npm run preview
 
 .PHONY: bundle
-bundle: ## Bundle the JavaScript application
-	npm run bundle
+bundle: ## Bundle the JS
+	npm run build
 
 .PHONY: clean
 clean: ## Clean build artifacts and other generated files
@@ -55,4 +61,4 @@ format-check: ## Checks if format is correct
 
 .PHONY: watch
 watch: ## Watch for the filesystem and rebuild on every change
-	$(DUNE) build --watch @react @node
+	$(DUNE) build --watch @react
