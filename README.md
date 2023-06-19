@@ -1,6 +1,6 @@
 # melange-opam-template (ReasonReact, Vite, Tailwind)
 
-Forked from this [original template](https://github.com/melange-re/melange-opam-template) and changed to use Vite and Tailwind. This template uses only Reason syntax and not OCaml.
+Forked from [this original template](https://github.com/melange-re/melange-opam-template) and changed to use Vite and Tailwind. This template uses only Reason syntax and not OCaml.
 
 A simple project template using [Melange](https://github.com/melange-re/melange)
 with [opam](https://opam.ocaml.org/).
@@ -14,7 +14,7 @@ make init
 
 # In separate terminals:
 make watch
-make vite
+make dev
 ```
 
 ## React
