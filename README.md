@@ -36,7 +36,8 @@ are a few of the most useful ones:
 - `make watch`: watch for the filesystem and have Melange rebuild on every
   change
 - `make dev`: serve the JS application with a local HTTP server
-- `make preview`: build the JS and serve the built JS application with a local HTTP server
+- `make bundle`: create production build of app
+- `make preview`: serve the production build of the JS application with a local HTTP server
 
 ## JavaScript output
 
