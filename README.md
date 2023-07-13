@@ -46,4 +46,4 @@ for projects on any JavaScript platform - not just the browser.
 
 _This template includes just one `melange.emit` stanza and not the two stanzas from the original template. Please refer to the original template to see how to output JS code for the browser and node using two separate stanzas._
 
-`_build/default/src/output/src/Index.js` in the `index.html` is used as the entry point for Vite.
+`_build/default/src/output/src/Index.js` in `index.html` is used as the entry point for Vite.
